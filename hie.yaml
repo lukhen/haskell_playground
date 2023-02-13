@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:htc"
+
+    - path: "test"
+      component: "htc:test:spec"
+
+    - path: "app/Main.hs"
+      component: "htc:exe:htc"

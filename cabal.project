@@ -1,0 +1,5 @@
+packages:
+  htc.cabal
+
+package htc
+  ghc-options: -Werror
